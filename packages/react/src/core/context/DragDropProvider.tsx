@@ -9,7 +9,7 @@ import {
 import type {Data, DragDropEvents} from '@dnd-kit/abstract';
 import {DragDropManager, defaultPreset} from '@dnd-kit/dom';
 import type {DragDropManagerInput, Draggable, Droppable} from '@dnd-kit/dom';
-import {useLatest, useOnValueChange} from '@dnd-kit/react/hooks';
+import {useLatest, useOnValueChange} from '@mduan/dnd-kit-react/hooks';
 import {deepEqual} from '@dnd-kit/state';
 
 import {DragDropContext} from './context.ts';

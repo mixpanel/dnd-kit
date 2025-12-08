@@ -7,8 +7,8 @@ import {
   useOnValueChange,
   useOnElementChange,
   useDeepSignal,
-} from '@dnd-kit/react/hooks';
-import {currentValue, type RefOrValue} from '@dnd-kit/react/utilities';
+} from '@mduan/dnd-kit-react/hooks';
+import {currentValue, type RefOrValue} from '@mduan/dnd-kit-react/utilities';
 
 import {useInstance} from '../hooks/useInstance.ts';
 

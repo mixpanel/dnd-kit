@@ -1,5 +1,7 @@
 'use client';
 
+export {DragDropContext} from './context/context.ts';
+
 export {
   DragDropProvider,
   type Events as DragDropEvents,

@@ -8,7 +8,7 @@ import {
   useMemo,
 } from 'react';
 import type {Renderer as AbstractRenderer} from '@dnd-kit/abstract';
-import {useIsomorphicLayoutEffect} from '@dnd-kit/react/hooks';
+import {useIsomorphicLayoutEffect} from '@mduan/dnd-kit-react/hooks';
 
 export type ReactRenderer = {
   renderer: AbstractRenderer;
