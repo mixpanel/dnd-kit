@@ -1,7 +1,7 @@
 import {useState} from 'react';
 import type {DragDropManager} from '@dnd-kit/abstract';
 import type {CleanupFunction} from '@dnd-kit/state';
-import {useIsomorphicLayoutEffect} from '@dnd-kit/react/hooks';
+import {useIsomorphicLayoutEffect} from '@mduan/dnd-kit-react/hooks';
 
 import {useDragDropManager} from './useDragDropManager.ts';
 

@@ -1,5 +1,5 @@
 import {useRef} from 'react';
-import {currentValue, type RefOrValue} from '@dnd-kit/react/utilities';
+import {currentValue, type RefOrValue} from '@mduan/dnd-kit-react/utilities';
 
 import {useIsomorphicLayoutEffect} from './useIsomorphicLayoutEffect.ts';
 
