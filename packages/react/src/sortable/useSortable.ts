@@ -3,15 +3,15 @@ import {batch, deepEqual} from '@dnd-kit/state';
 import {type Data} from '@dnd-kit/abstract';
 import {Sortable, defaultSortableTransition} from '@dnd-kit/dom/sortable';
 import type {SortableInput} from '@dnd-kit/dom/sortable';
-import {useInstance} from '@mduan/dnd-kit-react';
+import {useInstance} from '@mixpanel/dnd-kit-react';
 import {
   useImmediateEffect as immediateEffect,
   useIsomorphicLayoutEffect,
   useOnValueChange,
   useOnElementChange,
   useDeepSignal,
-} from '@mduan/dnd-kit-react/hooks';
-import {currentValue, type RefOrValue} from '@mduan/dnd-kit-react/utilities';
+} from '@mixpanel/dnd-kit-react/hooks';
+import {currentValue, type RefOrValue} from '@mixpanel/dnd-kit-react/utilities';
 
 export interface UseSortableInput<T extends Data = Data>
   extends Omit<SortableInput<T>, 'handle' | 'element' | 'target'> {
