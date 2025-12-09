@@ -1,5 +1,5 @@
 import {createElement, useEffect, useMemo, useRef, type ReactNode} from 'react';
-import {useComputed, useDeepSignal} from '@mduan/dnd-kit-react/hooks';
+import {useComputed, useDeepSignal} from '@mixpanel/dnd-kit-react/hooks';
 import {DragDropManager, Draggable, Feedback} from '@dnd-kit/dom';
 import {Data} from '@dnd-kit/abstract';
 

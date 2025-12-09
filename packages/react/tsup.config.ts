@@ -5,7 +5,7 @@ export default defineConfig((options) => ({
   outDir: './',
   external: [
     '@dnd-kit/abstract',
-    '@dnd-kit/react',
+    '@mixpanel/dnd-kit-react',
     '@dnd-kit/dom',
     '@dnd-kit/state',
   ],

@@ -1,6 +1,6 @@
 import type {Data} from '@dnd-kit/abstract';
 import type {Draggable, Droppable, DragDropManager} from '@dnd-kit/dom';
-import {useComputed} from '@mduan/dnd-kit-react/hooks';
+import {useComputed} from '@mixpanel/dnd-kit-react/hooks';
 
 import {useDragDropManager} from './useDragDropManager.ts';
 

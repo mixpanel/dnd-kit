@@ -1,15 +1,15 @@
-# @dnd-kit/react
+# @mixpanel/dnd-kit-react
 
-[![Stable release](https://img.shields.io/npm/v/@dnd-kit/react.svg)](https://npm.im/@dnd-kit/react)
+[![Stable release](https://img.shields.io/npm/v/@mixpanel/dnd-kit-react.svg)](https://npm.im/@mixpanel/dnd-kit-react)
 
 The React layer for @dnd-kit, built on top of @dnd-kit/dom.
 
 ## Installation
 
-To get started, install the `@dnd-kit/react` package via npm or yarn:
+To get started, install the `@mixpanel/dnd-kit-react` package via npm or yarn:
 
 ```
-npm install @dnd-kit/react
+npm install @mixpanel/dnd-kit-react
 ```
 
 ## Usage

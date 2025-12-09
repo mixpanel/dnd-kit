@@ -1,4 +1,4 @@
-# @dnd-kit/react
+# @mixpanel/dnd-kit-react
 
 ## 0.1.21
 
@@ -222,7 +222,7 @@
 
 ### Minor Changes
 
-- [#1650](https://github.com/clauderic/dnd-kit/pull/1650) [`23d694b`](https://github.com/clauderic/dnd-kit/commit/23d694b459d7aded0e5674d6da94652ee2f46faf) Thanks [@MateusJabour](https://github.com/MateusJabour)! - Exports sensors from `@dnd-kit/dom` through `@dnd-kit/react`
+- [#1650](https://github.com/clauderic/dnd-kit/pull/1650) [`23d694b`](https://github.com/clauderic/dnd-kit/commit/23d694b459d7aded0e5674d6da94652ee2f46faf) Thanks [@MateusJabour](https://github.com/MateusJabour)! - Exports sensors from `@dnd-kit/dom` through `@mixpanel/dnd-kit-react`
 
 ### Patch Changes
 
@@ -237,7 +237,7 @@
 
 ### Patch Changes
 
-- [#1606](https://github.com/clauderic/dnd-kit/pull/1606) [`76d2d65`](https://github.com/clauderic/dnd-kit/commit/76d2d65d6555040dc64aa8f277f531808022000e) Thanks [@github-actions](https://github.com/apps/github-actions)! - Introduce the `useDragDropMonitor` hook to the `@dnd-kit/react` package. This hook allows you to monitor drag and drop events within a `DragDropProvider`.
+- [#1606](https://github.com/clauderic/dnd-kit/pull/1606) [`76d2d65`](https://github.com/clauderic/dnd-kit/commit/76d2d65d6555040dc64aa8f277f531808022000e) Thanks [@github-actions](https://github.com/apps/github-actions)! - Introduce the `useDragDropMonitor` hook to the `@mixpanel/dnd-kit-react` package. This hook allows you to monitor drag and drop events within a `DragDropProvider`.
 
 - [`349f0c0`](https://github.com/clauderic/dnd-kit/commit/349f0c0994cbc01f8f86372a938017362d767fe4) Thanks [@clauderic](https://github.com/clauderic)! - Fixed incorrect types for the `useDragDropMonitor` hook.
 
@@ -254,7 +254,7 @@
 
 - [#1600](https://github.com/clauderic/dnd-kit/pull/1600) [`2b76c19`](https://github.com/clauderic/dnd-kit/commit/2b76c19f7608c69b858eaa52b9b3410289ed543b) Thanks [@github-actions](https://github.com/apps/github-actions)! - Added `style` and `tag` props to `<DragOverlay>` component.
 
-- [#1600](https://github.com/clauderic/dnd-kit/pull/1600) [`b8898bc`](https://github.com/clauderic/dnd-kit/commit/b8898bc7718e26aa5d023e3756085a0cd6614f9e) Thanks [@github-actions](https://github.com/apps/github-actions)! - Re-export `isSortable` from `@dnd-kit/react/sortable` so React consumers don't have to import it from `@dnd-kit/dom/sortable`.
+- [#1600](https://github.com/clauderic/dnd-kit/pull/1600) [`b8898bc`](https://github.com/clauderic/dnd-kit/commit/b8898bc7718e26aa5d023e3756085a0cd6614f9e) Thanks [@github-actions](https://github.com/apps/github-actions)! - Re-export `isSortable` from `@mixpanel/dnd-kit-react/sortable` so React consumers don't have to import it from `@dnd-kit/dom/sortable`.
 
 - [#1600](https://github.com/clauderic/dnd-kit/pull/1600) [`c5f25c8`](https://github.com/clauderic/dnd-kit/commit/c5f25c8322ae8e2bdccd51f80352539b88a9e34a) Thanks [@github-actions](https://github.com/apps/github-actions)! - Force synchronous re-render when `isDragSource` property is updated from `true` to `false` to enable seamless transition into idle state after drop animation. Without this change, the drop animation can finish before React has had a chance to update the drag source styles back to its idle state, which can cause some flickering.
 
@@ -267,7 +267,7 @@
 
 ### Patch Changes
 
-- [#1598](https://github.com/clauderic/dnd-kit/pull/1598) [`426339d`](https://github.com/clauderic/dnd-kit/commit/426339df7bcfdfb08a2d3b9b2eb0abb8c02ed526) Thanks [@github-actions](https://github.com/apps/github-actions)! - Added the `<DragOverlay>` component to ease migration for consumers of `@dnd-kit/core` migrating to `@dnd-kit/react`
+- [#1598](https://github.com/clauderic/dnd-kit/pull/1598) [`426339d`](https://github.com/clauderic/dnd-kit/commit/426339df7bcfdfb08a2d3b9b2eb0abb8c02ed526) Thanks [@github-actions](https://github.com/apps/github-actions)! - Added the `<DragOverlay>` component to ease migration for consumers of `@dnd-kit/core` migrating to `@mixpanel/dnd-kit-react`
 
 - [#1598](https://github.com/clauderic/dnd-kit/pull/1598) [`3ea0d31`](https://github.com/clauderic/dnd-kit/commit/3ea0d314649b186bfe0524d50145625da13a8787) Thanks [@github-actions](https://github.com/apps/github-actions)! - Added optional `register` argument to instances of `Entity` to disable automatic registration of instances that have a manager supplied on initialization.
 
@@ -360,7 +360,7 @@
 
 - [#1440](https://github.com/clauderic/dnd-kit/pull/1440) [`5ccd5e6`](https://github.com/clauderic/dnd-kit/commit/5ccd5e668fb8d736ec3c195116559cb5c5684e80) Thanks [@clauderic](https://github.com/clauderic)! - Update modifiers on the `Draggable` instances when `useDraggable` receives updated modifiers
 
-- [#1440](https://github.com/clauderic/dnd-kit/pull/1440) [`8f421ee`](https://github.com/clauderic/dnd-kit/commit/8f421ee00201435ead41ac4c45dae72bf030b5a5) Thanks [@clauderic](https://github.com/clauderic)! - Add `"use client"` hints to `@dnd-kit/react` exports.
+- [#1440](https://github.com/clauderic/dnd-kit/pull/1440) [`8f421ee`](https://github.com/clauderic/dnd-kit/commit/8f421ee00201435ead41ac4c45dae72bf030b5a5) Thanks [@clauderic](https://github.com/clauderic)! - Add `"use client"` hints to `@mixpanel/dnd-kit-react` exports.
 
 - Updated dependencies [[`8530c12`](https://github.com/clauderic/dnd-kit/commit/8530c122c8db7723a8c13a207a11487b3354cb59), [`8e45c2a`](https://github.com/clauderic/dnd-kit/commit/8e45c2a9d750283296b56b05a887be89fe7b0184), [`5ccd5e6`](https://github.com/clauderic/dnd-kit/commit/5ccd5e668fb8d736ec3c195116559cb5c5684e80), [`886de33`](https://github.com/clauderic/dnd-kit/commit/886de33d0df851ebdcb3fcf2915f9623069b06d1)]:
   - @dnd-kit/dom@0.0.3
